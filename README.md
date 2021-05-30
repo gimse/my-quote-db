@@ -12,6 +12,12 @@ I offline program that contains a quote database from [Kaggle](https://www.kaggl
     "Category": "life"
 }
 ```
+## Setup Docker
+- Install [Docker](https://www.docker.com/products/docker-desktop)
+- ``docker pull ghcr.io/gimse/my-quote-db/my-quote-db:1.0.0``
+- ``docker run -p 43444:43444 ghcr.io/gimse/my-quote-db/my-quote-db:1.0.0``
+- Open for example: http://localhost:43444/api/v1/random_quote?category=life&max_length=40 
+
 ## Setup (Locally)
 - ``git clone ...``
 - ``cd my-quote-db``
@@ -24,9 +30,6 @@ I offline program that contains a quote database from [Kaggle](https://www.kaggl
 - ``build -t my-quote-db . ``
 - ``run -p 43444:43444 my-quote-db``
 - Test: http://0.0.0.0:43444/api/v1/random_quote?category=life 
-
-## Github pipeline
-A images is built automatically when the branch main is pushed to github, using the file [github-actions-demo.yml](.github/workflows/github-actions-demo.yml). The image is avaliable at https://github.com/users/gimse/packages/container/package/my-quote-db%2Fmy-quote-db
 
 ## Exmaple calls
 http://localhost:43444/api/v1/random_quote?category=life
