@@ -1,21 +1,11 @@
 # My Quote Db
-I offline program that contains a quote database from [Kaggle](https://www.kaggle.com/akmittal/quotes-dataset). Example data:
+I offline program that contains a quote database from [Kaggle](https://www.kaggle.com/akmittal/quotes-dataset)([(CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)).
 ```json
 {
     "Quote": "Don't cry because it's over, smile because it happened.",
     "Author": "Dr. Seuss",
     "Tags": [
       "attributed-no-source",
-      "cry",
-      "crying",
-      "experience",
-      "happiness",
-      "joy",
-      "life",
-      "misattributed-dr-seuss",
-      "optimism",
-      "sadness",
-      "smile",
       "smiling "
     ],
     "Popularity": 0.15566615566615566,
