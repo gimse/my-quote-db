@@ -1,0 +1,19 @@
+{
+  "name": "my-quote-db",
+  "version": "1.0.0",
+  "description": "I offline program that contains a quote database from [Kaggle](https://www.kaggle.com/akmittal/quotes-dataset). Example data: ```json {     \"Quote\": \"Don't cry because it's over, smile because it happened.\",     \"Author\": \"Dr. Seuss\",     \"Tags\": [       \"attributed-no-source\",       \"cry\",       \"crying\",       \"experience\",       \"happiness\",       \"joy\",       \"life\",       \"misattributed-dr-seuss\",       \"optimism\",       \"sadness\",       \"smile\",       \"smiling \"     ],     \"Popularity\": 0.15566615566615566,     \"Category\": \"life\" } ``` ## Setup (Locally) - ``git clone ...`` - ``cd my-quote-db``",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "random": "^3.0.6"
+  }
+}
