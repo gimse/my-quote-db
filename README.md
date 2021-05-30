@@ -1,5 +1,5 @@
 # My Quote Db
-I offline program that contains a quote database from [Kaggle](https://www.kaggle.com/akmittal/quotes-dataset)([(CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)).
+A offline api that contains a quote database from [Kaggle](https://www.kaggle.com/akmittal/quotes-dataset)([CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)).
 ```json
 {
     "Quote": "Don't cry because it's over, smile because it happened.",
