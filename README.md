@@ -27,7 +27,7 @@ I offline program that contains a quote database from [Kaggle](https://www.kaggl
 - ``cd my-quote-db``
 - Install [npm](https://nodejs.org/en/download/)
 - ``npm install``
-- ``npm install.js``or ``node index.js``
+- ``npm debug``, ``npm start``or ``node index.js``
 
 ## Setup Docker (Locally)
 - Install [Docker](https://www.docker.com/products/docker-desktop)
